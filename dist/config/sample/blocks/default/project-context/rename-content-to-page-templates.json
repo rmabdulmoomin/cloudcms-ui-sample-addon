@@ -12,10 +12,6 @@
                     {
                         "key": "project/documents",
                         "title": "Browse all Content"
-                    },
-                    {
-                        "key": "project/datalists",
-                        "title": "Test Lists"
                     }]
                 }
             ]

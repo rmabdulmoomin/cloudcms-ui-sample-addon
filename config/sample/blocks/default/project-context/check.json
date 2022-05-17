@@ -1,17 +1,20 @@
-{
+
+  {
     "evaluator": "context-project",
     "config": {
+        "content-types": {
+            "items": [{
+                "key": "project/content/contentlist",
+                "title": "Content Types Check"
+            }]
+        },
         "project-context": {
             "items": [
                 {
                     "key": "project/content/heading",
                     "items": [{
-                        "key": "project/content",
-                        "title": "Content by Type"
-                    },
-                    {
-                        "key": "project/documents",
-                        "title": "Browse all Content"
+                        "key": "project/datalists",
+                        "title": "Test Lists"
                     }]
                 }
             ]
