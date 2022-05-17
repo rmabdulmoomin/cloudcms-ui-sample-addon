@@ -1,12 +1,10 @@
 
   {
-    "evaluator": "context-project",
+    "evaluator": "uri-match",
+    "condition": "#/projects/{projectId}/content",
     "config": {
         "content-types": {
-            "items": [{
-                "key": "project/content/contentlist",
-                "title": "Content Types Check"
-            }]
+            "remove": true
         },
         "project-context": {
             "items": [
