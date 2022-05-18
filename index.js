@@ -12,6 +12,11 @@ define(function(require) {
     // sample form fields
     require("./fields/sample-city-picker.js");
     require("./fields/sample-content-picker.js");
+    require("./fields/oup-secondarypage-select.js")
+    require("./fields/oup-checkbox.js")
+    require("./fields/oup-common.js")
+    require("./fields/oup-select-mediakit.js");
+    require("./fields/oup-file-picker.js");
 
     // sample override to document-properties
     require("./gadgets/sample-product-document-properties/sample-product-document-properties.js");

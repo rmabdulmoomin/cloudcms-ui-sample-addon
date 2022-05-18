@@ -1,10 +1,9 @@
 
   {
-    "evaluator": "uri-match",
-    "condition": "#/projects/{projectId}/content",
     "config": {
         "content-types": {
-            "remove": true
+            "remove": true,
+            "items": []
         },
         "project-context": {
             "items": [
