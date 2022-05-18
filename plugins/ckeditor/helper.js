@@ -4,7 +4,7 @@ define(function (require, exports, module) {
 
     return {
         registerPlugin: function (pluginId, moduleId) {
-            var pluginPath = "../../../" + moduleId + "/oup-ui/plugins/ckeditor/wordcount/";
+            var pluginPath = "../../../" + moduleId + "/sample/plugins/ckeditor/wordcount/";
 
             CKEDITOR.plugins.addExternal(pluginId, pluginPath, 'plugin.js');
 
@@ -14,7 +14,7 @@ define(function (require, exports, module) {
             CKEDITOR.config.extraPlugins += pluginId;
         },
         registerPlugin1: function (pluginId, moduleId) {
-            var pluginPath = "../../../" + moduleId + "/oup-ui/plugins/ckeditor/a11ychecker/";
+            var pluginPath = "../../../" + moduleId + "/sample/plugins/ckeditor/a11ychecker/";
 
             CKEDITOR.plugins.addExternal(pluginId, pluginPath, 'plugin.js');
 
@@ -24,7 +24,7 @@ define(function (require, exports, module) {
             CKEDITOR.config.extraPlugins += pluginId;
         },
         registerPlugin2: function (pluginId, moduleId) {
-            var pluginPath = "../../../" + moduleId + "/oup-ui/plugins/ckeditor/balloonpanel/";
+            var pluginPath = "../../../" + moduleId + "/sample/plugins/ckeditor/balloonpanel/";
 
             CKEDITOR.plugins.addExternal(pluginId, pluginPath, 'plugin.js');
 
@@ -34,7 +34,7 @@ define(function (require, exports, module) {
             CKEDITOR.config.extraPlugins += pluginId;
         },
         registerPlugin3: function (pluginId, moduleId) {
-            var pluginPath = "../../../" + moduleId + "/oup-ui/plugins/ckeditor/orcidIcon/";
+            var pluginPath = "../../../" + moduleId + "/sample/plugins/ckeditor/orcidIcon/";
             
             CKEDITOR.plugins.addExternal(pluginId, pluginPath, 'plugin.js');
             
@@ -44,7 +44,7 @@ define(function (require, exports, module) {
             CKEDITOR.config.extraPlugins += pluginId;
         },
         registerPlugin4: function (pluginId, moduleId) {
-            var pluginPath = "../../../" + moduleId + "/oup-ui/plugins/ckeditor/expandablelist/";
+            var pluginPath = "../../../" + moduleId + "/sample/plugins/ckeditor/expandablelist/";
             
             CKEDITOR.plugins.addExternal(pluginId, pluginPath, 'plugin.js');
             
